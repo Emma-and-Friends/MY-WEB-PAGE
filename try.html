@@ -1,0 +1,209 @@
+<!Doctype>
+	<!DOCTYPE html>
+	<html>
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	    <section id="header">
+		<nav>
+			<div id="main">
+
+     <div class="topnav">
+        <a  class = "active" href="Easy.com/index.html">Home</a>
+        <a href="Table.html" >Tables</a>
+        <a href="Form.html"> Forms</a>
+        <a href="Music Video.html">Music/video</a>
+        <a href='#container'>About</a>
+        <a href='#resume'>Resume</a>
+        <a href='#contact'>Contact</a>
+        <a href='#message'>Message</a>
+        <div class = "button-input">
+        	<input type="text" placeholder="Search.." class="btn-input">
+        	<button>Search</button>
+        </div>
+</div>
+					
+				</div>
+		
+		</nav>
+		<br>
+		<br>
+
+			 <div>
+				 <div class="discount">
+				 	<a href="#" class="notification">
+                     <span>Inbox</span>
+                      <span class="badge">3</span>
+                      </a>
+					 <h1>WHO IAM?</h1>
+					 <h2 class="masloc">MY NAME IS EMMANUEL YIDANA</h2>
+				 </div>
+				 <br>
+				 <div id="image">
+					 <img src="IMG_20210709_175822_9.jpg" width="30%" height="70%">
+				 </div>
+				 <br>
+				 <br>
+				 <div id="container">
+					 <article>
+						<h4>MY ABOUT OR MY BIOGRAPHY</h4>
+						<p class="main-body"> Im Emmanuel Yidana, a beginner web designer living in Accra.
+						  Iam currently a student at the University of Ghana pursuing a 
+						  4-year Bachelor's degree in Information Technology.
+						  I am developing much interest in programming and Web Development.
+						  These are the two main aspects of my Program of study that I enjoy.
+						  I have a bit of experience on how to code and how to develop and design a 
+						  website as well. I started my education at zangu vuga D/A primary school from
+						  2008 to 2013. I then proceeded to zangu vugaa D/A Junior High School in the year
+						  2014 to 2016 where I had my Basic Education certificate and I was posted to 
+						  Walewale Vocational Technical Institute . I had my High Education certificate at 
+						  walewale Vocational Technical Institute in the year 2016 to 2019. After all this 
+						  I realized that Eduction is very relevant in my life, so I proceeded to University 
+						  of Ghana, legon to persue a 4-year bachelor's of science in Information and Technology 
+						  from 2021 and present.</p>
+					 </article>
+				 </div>
+			 <div id="resume">
+				 <article>
+					<h1 class="goat">EDUCATION</h1>
+					<h3>zangu-Vuga D/A Primary School from the year 2008-2013</h3>
+					<h3>zangu-Vuga D/A Junior High School from the year 2014-2016</h3>
+					<h3>Walewale Technical Institute from the year 2016-2019</h3>
+					<h3>University Of Ghana,Legon from 2021-Present</h3>
+    
+				 </article>
+			 </div>
+			 <br>
+			 <br>
+			 <br>
+			 <br>
+				<section id="form-section">
+				<div id="message">
+					<form id="sasco" onsubmit="takevalue()" target="blank">
+					<div class="message-heading">
+						<h5>Message Us Here</h5>
+					</div>
+					<div id="hashTag">** required field</div>
+					<label>First Name:</label>
+					<input type="text" name="First Name" class="input-style" id="firstname">
+					<br>
+					<br>
+		
+					<label>Last Name:</label>
+					<input type="text" name="Last Name" class="input-style" id="lastname">
+					<br>
+					<br>
+					<label>Date of Birth:</label>
+					<input type="date" name="Date of Birth" class="input-style" id="Dob">
+					<br>
+					<br>
+					<label >Gender:</label>
+					<input type="radio" name="Gender" id="gender" value="Male">Male
+					<input type="radio" name="Gender" id="gender" value="Female">Female
+					<input type="radio" name="Gender" id="gender" value="Other">Other
+					<br>
+					<br>
+					<label>Telephone:</label>
+					<input type="tel" name="Telephone"  maxlength="10" class="input-style" id="telephone"><font color="red">***</font>
+					<br>
+					<br>
+					<label>Marital Status</label>
+					<input type="checkbox" name="check" id="status" value="Single">single
+					<input type="checkbox" name="check" id="status" value="Married">Married
+					<input type="checkbox" name="check" id="status" value="Divorce">Divorce
+					<br>
+					<br>
+					<label>Password:</label>
+					<input type="password" name="password" maxlength="8" class="input-style"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true" id="password"><font color="red">***</font>
+					<br> 
+					<br>
+					<label>Courses:</label>
+					<select name="dropdown" class="input-style" id="Courses">
+						<option value="Bsc Information Technology" selected="select" >Bsc Information Technology</option>
+						<option value="Bsc Computer Science" >Bsc Computer Science</option>
+						<option value="Bsc Mathematical Science" >Bsc Mathematical Science</option>
+						<option value="Bsc Statistics">Bsc Statistics</option>
+						</option>
+					</select>
+					<br>
+					<br>
+					<label>Email:</label>
+					<input type="email" id="email" placeholder="eyidan@001.ug.edu.gh"class="input-style" id="email">
+					<br>
+					<br>
+					<label> Address:</label>
+					<textarea name="Residence" placeholder="Enter Your Address Or  Location Here" class="input-style" id="Address"></textarea><font color="red" >***</font>
+					<br>
+					<br>
+					<label>Message:</label>
+					<textarea required="true" placeholder="Inbox us here please...." class="input-style" id="inbox"></textarea><font color="red" >***</font>
+					<br>
+					<br>
+					<label >Your Image:</label>
+					<input type="file" name="file" accept="iamge" class="file" id="img">
+					<br>
+					<br>
+					<input type="submit" name="Submit" class="input-style">
+				</form>
+				</div>
+                 </section>
+			 </div>
+					
+			 
+	    </section>
+
+
+	    <section id="yidana">
+	    	<div id="feature">
+	    	
+	    	</div>
+		    <div class="foot">
+			    <p>Why Like Us</p>
+			    <div id="text">
+				Say Something About Us:
+				<textarea  name="say something about us" maxlength="50" required="true" rows="5" cols="40"></textarea><font color="red">***</font>
+				<a href="submit.html"><button id="button">Submit</button></a>
+				
+			    </div>
+		    </div>
+		    <div id="footer">
+			    	</div>
+			    <div class="footer-image">
+				<img src="Emmanueller.jpg" width="10%" height="50%"> <img src="Lawhiyatu.jpg" width="10%" height="50%">
+				<p id="paragraph">Created and Hosted by <br>Emmanuel Yidana</p>
+				
+			</div>
+		  
+		  <div id="about">
+		  	<div id="about-us">
+		  <h3>ABOUT US</h3>
+              </div>
+		  <div class="about-p">
+		  	<p>The management team of this website has worked almost ten(10) and  half <br> years towards the promotion, advertisement and development of goods and <br> srevices in this country, hence we have ten years of experienc in this kind of <br> work. We have contributed alot to this country especially in the business  and  <br>the  market sector. over the years now Emmanuel website has become Ghana's <br> most reliable and popular trading platform in Ghana. promote your business, <br>music and others on our official website here. Your progression is our concern: <br> Call/WhatsApp us on +23354904349</p>
+		
+			<div id="media-icons">
+				<h3>FOLLOU US</h3>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+           <a href="#" class="fa fa-instagram"></a>
+           <a href="#" class="fa fa-snapchat-ghost"></a>
+           <a href="#" class="fa fa-yahoo"></a>
+
+		</div>
+
+
+		  <div id="back">
+		  	<a href='#main' ><span></span><button>Back to Home--></button></a>
+					<h6><b>Thank You for visiting us</b></h6>
+				</div>
+		 </section>
+		 <script src="index.js"></script>
+	</body>
+	</html>

@@ -1,0 +1,86 @@
+<!Doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<section id="form-section">
+				<div id="message">
+					<form id="sasco" onsubmit="takevalue()" target="blank">
+					<div class="message-heading">
+					</div>
+					<p id="hashTag">PLEASE NOTE:All the fields marked with ** are mandatory</p>
+					<label >First Name:</label>
+					<input type="text" name="First Name" class="input-style" id="firstname" maxlength ="15" requre = "true" onkeyup="capital()">
+					<br>
+					<br>
+		
+					<label>Last Name:</label>
+					<input type="text" name="Last Name" class="input-style" id="lastname"    required="true" onblur="capital()">
+					<br>
+					<br>
+					<label>Date of Birth:</label>
+					<input type="date" name="Date of Birth" class="input-style" id="Dob">
+					<br>
+					<br>
+					<label >Gender:</label>
+					<select id="gender" class="input-style">
+						<option selected = "select">Please Select</option>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+						<option value="Other">Other</option>
+					</select>
+					<br>
+					<br>
+					<label>Telephone:</label>
+					<input type="tel" name="Telephone"  maxlength="10" class="input-style" id="telephone"><font color="red">***</font>
+					<br>
+					<br>
+					<label>Marital Status</label>
+					<input type="checkbox" name="check" id="status" value="Single">single
+					<input type="checkbox" name="check" id="status" value="Married">Married
+					<input type="checkbox" name="check" id="status" value="Divorce">Divorce
+					<br>
+					<br>
+					<label>Password:</label>
+					<input type="password" name="password" maxlength="8" class="input-style"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="true" id="password"><font color="red">***</font>
+					<br> 
+					<br>
+					<label>Courses:</label>
+					<select name="dropdown" class="input-style" id="Courses">
+						<option value="Bsc Information Technology" selected="select" >Bsc Information Technology</option>
+						<option value="Bsc Computer Science" >Bsc Computer Science</option>
+						<option value="Bsc Mathematical Science" >Bsc Mathematical Science</option>
+						<option value="Bsc Statistics">Bsc Statistics</option>
+						</option>
+					</select>
+					<br>
+					<br>
+					<label>Email:</label>
+					<input type="email" id="email" placeholder="eyidan@001.ug.edu.gh"class="input-style" id="email">
+					<br>
+					<br>
+					<label> Address:</label>
+					<textarea name="Residence" placeholder="Enter Your Address Or  Location Here" class="input-style" id="Address"></textarea><font color="red" >***</font>
+					<br>
+					<br>
+					<label>Message:</label>
+					<textarea required="true" placeholder="Inbox us here please...." class="input-style" id="inbox"></textarea><font color="red" >***</font>
+					<br>
+					<br>
+					<label >Your Image:</label>
+					<input type="file" name="file" accept="iamge" class="file" id="img">
+					<br>
+					<br>
+					<input type="submit" name="Submit" class="input-style">
+				</form>
+				</div>
+                 </section>
+                 <div class="jssubmit"></div>
+                 <script src="index.js"></script>
+	</body>
+	</html>

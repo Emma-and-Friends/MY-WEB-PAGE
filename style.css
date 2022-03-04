@@ -1,0 +1,829 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.masloc {
+  margin: 20px;
+}
+
+#main-text {
+  margin: 12%;
+  padding: 20px;
+  font-size: 250%;
+  color: white;
+  font-style: bold;
+}
+
+#manner {
+  right: inherit;
+}
+
+#banner {
+  padding: 20px;
+  font-size: 150%;
+}
+
+#matter {
+  margin: 0;
+  padding: 0;
+}
+
+#table-heading {
+  text-align: center;
+  text-decoration: underline;
+  color: #8a2be2;
+}
+.tables-text {
+  text-align: center;
+  position: absolute;
+  align-items: center;
+  margin-left: 450px;
+}
+
+th {
+  font-size: 120%;
+}
+
+#cast {
+  width: 5%;
+  height: 10%;
+  border-radius: 10px;
+  background-color: gainsboro;
+}
+
+#sass {
+  width: 5%;
+  border: radius 10px;
+  background-color: gainsboro;
+  height: 10%;
+  margin: 10px;
+}
+
+#main a {
+  margin-top: 20px;
+  margin: 5px;
+  font-size: 140%;
+  padding: 4px 6px;
+  text-decoration: none;
+  top: 100px;
+  display: inline-block;
+  padding-bottom: 80px;
+}
+
+#main a:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+#header {
+  height: 130%;
+  width: 100%;
+  background-image: linear-gradient(rgba(6, 9, 40, 0.6), rgba(6, 9, 40, 0.6)),
+    url("./Emmanuel222.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#container {
+  margin: 50px;
+}
+#image {
+  margin: 30px;
+  border-radius: 60px;
+  padding: 30px;
+}
+
+#image img {
+  border-radius: 200px;
+}
+
+.input-image {
+  margin-left: 100%;
+}
+#come {
+  background-color: pink;
+}
+
+.goat {
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+  color: blueviolet;
+}
+
+#samira {
+  padding: 10px;
+  text-align: center;
+  font-size: 160%;
+}
+
+#samira p {
+  padding: 5px;
+}
+
+#sasco {
+  padding: 60px;
+  font-size: 160%;
+}
+#caster {
+  width: 60px;
+  height: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+#button {
+  width: 60px;
+  height: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.message-heading {
+  text-align: center;
+  text-decoration: underline;
+  color: blueviolet;
+  font-size: 160%;
+  padding: 50px;
+  font-style: italic;
+}
+
+#yidana {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.foot {
+  text-align: center;
+  font-style: bold;
+  font-size: 200%;
+  padding: 20px;
+}
+
+#footer {
+  text-align: center;
+  color: blue;
+  font-size: 150%;
+  padding: 20px;
+  font-style: italic;
+}
+
+.main-body {
+  font-size: 150%;
+  color: white;
+  text-align: left;
+}
+
+#text {
+  text-align: center;
+  font-size: 110%;
+  padding: 50px;
+  cursor: pointer;
+}
+
+#main {
+  text-align: right;
+  padding: 20px;
+}
+
+#last {
+  color: blue;
+  font-size: 75%;
+  font-style: italic;
+}
+.footer-image {
+  text-align: center;
+  border-radius: 20px;
+  padding: 70px;
+}
+
+.footer-image img {
+  border-radius: 65px;
+}
+
+#paragraph {
+  font-size: 90%;
+  text-decoration: none;
+  font-style: italic;
+}
+
+label {
+  float: left;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  line-height: 20%;
+  width: 200px;
+  font-size: 80%;
+}
+
+.input-style {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  margin-left: -300px;
+  border-color: none;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  margin-left: 6px;
+}
+
+#submit-form {
+  background-color: #04aa6d;
+  color: white;
+  width: 50px;
+}
+
+#form-section {
+  background-color: #f1f1f1;
+}
+
+.file {
+  cursor: pointer;
+}
+
+#title-text {
+  text-align: center;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+#title-text h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#title-text p {
+  font-size: 20px;
+  margin: auto;
+  color: #009688;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+}
+
+#title-text p::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: -20px;
+  left: -5px;
+  z-index: -1;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  background: pink;
+  transform: rotate(10deg);
+  position: absolute;
+}
+
+#about-us {
+  padding-bottom: 10px;
+  font-size: 140%;
+}
+
+#about-p {
+  text-align: center;
+  padding: 20px;
+  font-size: 120%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.media-icons {
+  padding: 40px;
+  text-align: center;
+}
+
+#media-icons h3 {
+  padding: 40px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  height: 5%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #f1f1f1;
+  margin-top: 20px;
+}
+
+form.example button {
+  float: left;
+  width: 5%;
+  padding-bottom: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.topnav {
+  background-color: #252a2d;
+  overflow: hidden;
+  height: 55px;
+  width: 102%;
+  margin-left: -20px;
+  margin-top: -20px;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: -30px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  margin-right: 150px;
+  margin-top: 10px;
+  border: none;
+  font-size: 17px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a,
+  .topnav input[type="text"] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 140%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
+    border: none;
+  }
+}
+
+.button-input button {
+  margin-top: 10px;
+  margin-right: -282px;
+  height: 33px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: blue;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.btn-input:focus {
+  border: 2px solid dodgerblue;
+}
+
+#hashTag {
+  color: red;
+  padding: 40px;
+  margin-left: -30px;
+  margin-top: -150px;
+  font-size: 25px;
+}
+
+#fname {
+  color: red;
+}
+
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  margin-left: 1270px;
+  position: fixed;
+  margin-top: -67px;
+}
+h3 {
+  text-align: center;
+}
+
+.notification:hover {
+  background: blue;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+#Digitalclock {
+  color: white;
+  margin-left: 86%;
+  margin-top: -10px;
+  font-size: 30px;
+  position: fixed;
+}
+#image222 {
+  height: 200px;
+  width: 60%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("./computers.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-left: 270px;
+  margin-bottom: 100px;
+  margin-top: -15%;
+}
+
+.cont-div {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.banner-text {
+  text-align: center;
+  color: #fff;
+  padding: 100px;
+}
+
+.banner-text h1 {
+  padding: 10px;
+  margin: 10px;
+  font-style: bold;
+  font-size: 50px;
+}
+
+.banner-text p {
+  padding: 10px;
+  margin: 10px;
+  font-style: italic;
+  font-size: 100px;
+}
+
+.banner-btn {
+  margin: 15px auto 0;
+  text-align: center;
+  margin-top: 20px;
+}
+.banner-btn a {
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #fff;
+  border: 0.5px solid #fff;
+  position: relative;
+  z-index: 1;
+  transition: color 05s;
+  text-decoration: none;
+  width: 150px;
+}
+.banner-btn a span {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: -1;
+  transition: 0.5s;
+}
+.banner-btn a:hover span {
+  width: 100%;
+}
+.banner-btn a:hover {
+  color: black;
+}
+
+.clients {
+  background-color: #f1f1f1;
+  height: 330px;
+  width: -50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: -10px;
+}
+
+#clients-img img {
+  margin-left: -1020px;
+  border-radius: 60%;
+  border: 5px solid green;
+  margin-top: 20px;
+}
+
+#image-text {
+  margin-left: -660px;
+  margin-top: -80px;
+  font-style: bold;
+}
+
+#image-text a {
+  text-decoration: none;
+  font-style: italic;
+  font-size: -20px;
+}
+
+.second {
+  margin-left: -700px;
+  margin-bottom: 500px;
+}
+
+.bar {
+  background-color: #f2f2f1;
+  width: 100%;
+  height: 15px;
+  margin-bottom: 40px;
+  border-radius: 60px;
+}
+
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #566366;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.bar-inner {
+  background-color: #2ecc71;
+  width: 0%;
+  height: 100%;
+  position: relative;
+  transition: width 3000ms linear;
+  border-radius: 60px;
+}
+
+.bar-inner:after {
+  position: absolute;
+  right: 2.5%;
+  content: attr(data-percent);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.statistics {
+  width: 60%;
+  margin: 17%;
+  margin-top: -1.5%;
+}
+
+.projects button {
+  margin: 10%;
+  width: 15%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.projects button:hover {
+  color: white;
+  background-color: #252a2d;
+  transition: 0.5s;
+}
+
+#skills {
+  margin-top: -40px;
+  font-style: bold;
+  color: blue;
+  padding: 50px;
+  font-size: 40px;
+}
+
+.lawhi-text {
+  margin-left: -950px;
+  margin-top: 50px;
+}
+
+#emma-img img {
+  margin-top: -20%;
+  border-radius: 60%;
+  border: 5px solid green;
+}
+
+.footers {
+  height: 80%;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+.footers img {
+  width: 80%;
+  height: 100%;
+  clip-path: circle();
+  text-align: center;
+}
+
+#back {
+  text-align: center;
+  border-radius: 60px;
+}
+
+#back button {
+  transition: 0.5s;
+  z-index: -1;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#back button :hover span {
+  transition: solid white 0.5s;
+  width: 0;
+  height: 100vh;
+}
+
+h6 {
+  padding: 10px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+h6:hover {
+  color: green;
+}
+
+.back a :hover {
+  background-color: white;
+}
+
+.transition {
+  width: 80%;
+  height: 100%;
+  clip-path: circle();
+  text-align: center;
+}

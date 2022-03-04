@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f0e8a0;
+}
+
+#done {
+  text-align: center;
+  padding: 200px;
+  color: #8a2be2;
+}
+
+h5 {
+  font-style: italic;
+  color: #8a2be2;
+}
+
+#koko{
+  font-size: 150%;
+  font-style: italic;
+}
+
+h3{
+  font-style: italic;
+}
+
+.back {
+  text-align: center;
+  cursor: pointer;
+  color: #8a2be2;
+}
+
+button {
+  border-radius: 20px;
+  font-size: 80%;
+  height: 20px;
+  cursor: pointer;
+}

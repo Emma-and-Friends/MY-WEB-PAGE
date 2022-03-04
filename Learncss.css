@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to right, skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  text-shadow: 3px 2px 0px red;
+}
+
+h1:hover {
+  box-shadow: 4px 4px 4px blue;
+}
+
+.main-body {
+  text-align: center;
+  border-style: outset;
+  width: 60%;
+  margin-left: 27%;
+  margin-top: 10%;
+  border-width: 20px;
+  border-color: gold;
+  font-family: "consolas", serif;
+}
+#link {
+  text-align: center;
+  margin: 10%;
+  font-size: 150%;
+}
+
+a:link {
+  color: green;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: yellow;
+}
+
+li {
+  text-align: center;
+  padding: 10px;
+  font-size: 150%;
+}
+li:nth-child(1) {
+  color: green;
+}
+li:nth-child(2) {
+  color: orange;
+}
+li:nth-child(3) {
+  color: red;
+}
+li:nth-child(4) {
+  color: blue;
+}
+
+#box {
+  width: 250px;
+  height: 250px;
+  border: solid black;
+  font-size: 220px;
+  margin: 8%;
+  text-align: center;
+  transform: translate(200px);
+  animation: myslide;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./computer.jpg");
+
+  /*This the shortcut for the animation*/
+  /*animation: 3s linear 0s infinite running myColors;*/
+}
+
+@keyframes myRotate {
+  100% {
+    transform: rotateX(180deg);
+  }
+}
+
+@keyframes myslide {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: -20%;
+  }
+  60% {
+    background-image: url("./Emmanuel.jpeg");
+  }
+  80% {
+    background-image: url("./computers.jpg");
+  }
+}
+
+@keyframes myOpacity {
+  60% {
+    opacity: 10;
+    background-image: url("./Emmanuel.jpeg");
+  }
+  80% {
+    opacity: 10;
+    background-image: url("./computers.jpg");
+  }
+}
+
+@keyframes myColors {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: -30%;
+  }
+}
+
+#box:hover {
+  color: white;
+  background-color: yellow;
+  border-color: white;
+}
+
+#box:after {
+  color: green;
+  content: "";
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Animatio</title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+
+			.image-container{
+				height: 500px;
+				width: 800px;
+				background-color: black;
+				border: 10px solid black;
+				position: relative;
+				margin-left: 20%;
+				margin-top: 5%;
+
+			}
+			.image-container img{
+				width: 100%;
+				height: 100%;
+			}
+
+			.transition{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				opacity: 0;
+				transition: opacity 0.5s ease;
+			}
+
+			.transition:hover{
+                 opacity: 5;
+			}
+
+			.fade::after{
+				content: "This is My Car";
+				top: 0px;
+				left: 0px;
+				position: absolute;
+				color: white;
+				justify-content: center;
+				align-items: center;
+				font-size: 30px;
+				opacity: 0;
+				height: 100%;
+				width: 100%;
+				background: black;
+				transition: opacity 0.5s ease;
+			}
+			.fade:hover::after{
+				opacity: 0.5;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="image-container">
+			<img src="Footer Image.jpeg" alt="">
+			<img class="transition"  src="Emmanuel222.jpg" alt="">
+		</div>
+		<div class="image-container fade">
+			<img src="Images/aston-martin.jpg">
+		</div>
+	</body>
+</html>

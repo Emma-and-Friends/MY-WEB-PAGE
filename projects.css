@@ -1,0 +1,34 @@
+*{
+	 background-color: #e9e9e9;
+	}
+
+
+ #h-m-b button:hover{
+ 	background-color: #252a2d;
+ 	color: white;
+ }
+
+ h2{
+ 	margin: 5%;
+ }
+
+ .anchors{
+ 	margin: 5%;
+ 	font-size: 120%;
+ }
+ #h-m-b{
+ 	margin: 6%;
+ 	margin-top: -6%;
+ }
+
+#h-m-b button{
+	padding: 6px;
+	width: 13%;
+}
+a{
+	text-decoration: none;
+}
+
+.anchors a:hover{
+	color: blue;
+}
